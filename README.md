@@ -1,60 +1,56 @@
-# Epic Games - API Documentation
+# フォートナイト - APIドキュメント
 
-## Getting started
+## はじめに
 
-If you are new to this, you should first check out the [getting started guide for authentication](./EpicGames/AccountService/Authentication/README.md#getting-started).
+初めて公式APIを使用する場合[認証について](https://github.com/Fortniteleakjp/FortniteAPI-/blob/main/EpicGames/AccountService/Authentication/README.md#getting-started) を確認してください
 
-All requests that require normal authentication require the `Authorization` header with the access token, like `bearer {accessToken}`. <br/>
-Web APIs however are a bit different, these require web login cookies.
+多くのAPIには"認証"が必要です。
+生成したアクセストークンをヘッダーの `Authorization`に`bearer {accessToken}`に指定してリクエストを送ります。
 
 ## Content
 
 - [Epic Games](./EpicGames)
-  - [Account Service](./EpicGames/AccountService)
-  - [Artifact Delivery Service](./EpicGames/ArtifactDeliveryService)
-  - [Caldera Service](./EpicGames/CalderaService)
-  - [Data Asset Directory Service](./EpicGames/DataAssetDirectoryService)
-  - [EGS Platform Service](./EpicGames/EGSPlatformService)
-  - [Emerald Service](./EpicGames/EmeraldService)
-  - [Events Service](./EpicGames/EventsService)
-  - [FN - Service](./EpicGames/FN-Service)
-  - [FN - Content API](./EpicGames/FN-Content)
-  - [FN - Discovery Service](./EpicGames/FN-Discovery-Service)
-  - [FN - Discovery Search Service](./EpicGames/FN-Discovery-Search-Service)
-  - [FN - Habanero Service](./EpicGames/FN-Habanero-Service)
-  - [FN - Hotconfig](./EpicGames/FN-Hotconfig)
-  - [Friends Service](./EpicGames/FriendsService)
-  - [Fulfillment Service](./EpicGames/FulfillmentService)
-  - [Global Service](./EpicGames/GlobalService)
-  - [IP Data Service](./EpicGames/IPDataService)
+  - [アカウントサービス](./EpicGames/AccountService)
+  - [アーティファクトディスカバリーサービス](./EpicGames/ArtifactDeliveryService)
+  - [カルデラサービス](./EpicGames/CalderaService)
+  - [データアセットディレクトリサービス](./EpicGames/DataAssetDirectoryService)
+  - [EGSプラットフォームサービス](./EpicGames/EGSPlatformService)
+  - [エメラルドサービス](./EpicGames/EmeraldService)
+  - [トーナメントサービス](./EpicGames/EventsService)
+  - [FN - サービス](./EpicGames/FN-Service)
+  - [FN - コンテンツAPI](./EpicGames/FN-Content)
+  - [FN - ディスカバリーe](./EpicGames/FN-Discovery-Service)
+  - [FN - ディスカバリー検索](./EpicGames/FN-Discovery-Search-Service)
+  - [FN - ランク](./EpicGames/FN-Habanero-Service)
+  - [FN - ホットコンフィグ](./EpicGames/FN-Hotconfig)
+  - [フレンドサービス](./EpicGames/FriendsService)
+  - [コード引き換え](./EpicGames/FulfillmentService)
+  - [言語設定など](./EpicGames/GlobalService)
+  - [IPデータサービス](./EpicGames/IPDataService)
   - [KWS](./EpicGames/KWS)
-  - [Launcher Service](./EpicGames/LauncherService)
-  - [Library Service](./EpicGames/LibraryService)
-  - [Lightswitch Service](./EpicGames/LightswitchService)
-  - [Links Service](./EpicGames/LinksService)
+  - [ランチャーサービス](./EpicGames/LauncherService)
+  - [各データ](./EpicGames/LibraryService)
+  - [サーバーステータス](./EpicGames/LightswitchService)
+  - [二モニック](./EpicGames/LinksService)
   - [Nelly Service](./EpicGames/NellyService)
-  - [Persona Service](./EpicGames/PersonaService)
-  - [Pops Service](./EpicGames/PopsService)
-  - [PRM Dialog Service](./EpicGames/PRMDialogService)
-  - [Stats Proxy Service](./EpicGames/StatsProxyService)
-  - [Tag Management Service](./EpicGames/TagManagementService)
-  - [User Search Service](./EpicGames/UserSearchService)
-  - [Wasp Service](./EpicGames/WaspService)
-  - [Wex Service](./EpicGames/WexService)
-  - [Web APIs](./EpicGames/Web)
-    - [Affiliate (SAC)](./EpicGames/Web/Affiliate)
-    - [Fortnite](./EpicGames/Web/Fortnite)
+  - [ディスプレイ名検索(サ終済み)](./EpicGames/PersonaService)
+  - [マップ製作者：概要ページ](./EpicGames/PopsService)
+  - [ニュースフィード](./EpicGames/PRMDialogService)
+  - [プレイヤー統計データ](./EpicGames/StatsProxyService)
+  - [ゲームタグ管理](./EpicGames/TagManagementService)
+  - [ユーザー検索](./EpicGames/UserSearchService)
+  - [レゴ](./EpicGames/WaspService)
+  - [Wexサービス](./EpicGames/WexService)
+  - [webサービス](./EpicGames/Web)
+    - [アフィリエイト](./EpicGames/Web/Affiliate)
+    - [フォートナイト](./EpicGames/Web/Fortnite)
     - [Id](./EpicGames/Web/Id)
     - [UE](./EpicGames/Web/UE)
-      - [Marketplace](./EpicGames/Web/UE/Marketplace)
+      - [市場](./EpicGames/Web/UE/Marketplace)
 - [Epic Games Store](./EpicGamesStore)
 - [Playstation Store](./PlaystationStore)
 
-## Contributions
-
-Checkout the [Contribution Info](./CONTRIBUTING.md)
-
-## Authors
+## 著者
 
 - [Jem](https://twitter.com/jemfleaks) (jemcer#1009)
 - [Lele](https://twitter.com/lel3x) (LeleDerGrasshalm#1872) - Most part
